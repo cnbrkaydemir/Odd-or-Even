@@ -9,8 +9,8 @@
 
 const evenOrOdd=(number)=>{
     let sum=0;
-    
-    while(number>1){
+
+    while(number>=1){
         sum+=number%10;
         number=parseInt(number/10);
     }
